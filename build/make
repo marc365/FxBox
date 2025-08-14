@@ -1,0 +1,2 @@
+apcmp FROM /fxbox_1_11h.AMOS TO fxbox TYPE=0 NOERR NODEF WB INCLIB
+
