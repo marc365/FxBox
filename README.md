@@ -3,11 +3,11 @@ realtime multi loop processor editor written in AMOS BASIC for the Amiga range o
 
 ![alt fxbox](https://github.com/marc365/FxBox/raw/master/fxbox.png)
 
-  Imports various types of file formats and supports AMOS sample banks.
+  Imports 16bit and 32bit floating point file formats, AMOS sample banks and Octamed files.
 
   Can do mono, stereo, quad and 4 channel multi track.
 
-  Will realtime process while playing on accelerated machines.
+  Realtime processing and oscilloscope available on accelerated machines.
 
   Requires at least 1M ram.
 
