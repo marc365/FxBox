@@ -1,0 +1,3 @@
+apcmp FROM /tests/floatbuffertest.amos TO /tests/floatbuffertest TYPE=0 NOERR NODEF WB INCLIB LIBS=public:fxbox/source/build/
+apcmp FROM /tests/speedtest.amos TO /tests/speedtest TYPE=0 NOERR NODEF WB INCLIB LIBS=public:fxbox/source/build/
+apcmp FROM /tests/systest.amos TO /tests/systest TYPE=0 NOERR NODEF WB INCLIB LIBS=public:fxbox/source/build/
