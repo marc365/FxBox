@@ -1,4 +1,4 @@
-apcmp FROM /fxbox_1_15j.AMOS TO /fxbox TYPE=0 NOERR NODEF WB INCLIB
-copy /fxbox ram:
-copy /fxbox.info ram:
+apcmp FROM /fxbox_1_16c.AMOS TO fxbox TYPE=0 NOERR NODEF WB INCLIB
+copy fxbox ram:
+copy fxbox.info ram:
 
