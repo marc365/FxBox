@@ -1,0 +1,3 @@
+echo "Assembling Samples Only AMOSPro_Music.Lib"
+c/Library_Digest +Music.s
+c/Genam FROM +Music.s TO /AMOSPro_Music.Lib

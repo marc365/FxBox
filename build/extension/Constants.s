@@ -275,7 +275,7 @@ _u
 	move.l	#12,d3
 	Ret_Int
 	; - - - - - - - - - - - - -
-	Lib_Par	FnDarlBlue	
+	Lib_Par	FnDarkBlue	
 
 	move.l	#13,d3
 	Ret_Int
