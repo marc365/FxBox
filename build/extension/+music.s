@@ -60,19 +60,21 @@ C_Off
 		MC
 		ENDR
 
+;	TOKEN_START
+
 C_Tk:	dc.w 	1,0
 	dc.b 	$80,-1
 
 	; functions with a * are removed, the token is kept for combatibility
-	dc.w	L_Nul,L_NullPar						*
+	dc.w	L_Nul,L_NullDef						*
 	dc.b	"mubas","e"+$80,"0",-1
 	dc.w	L_Nul,L_NullPar						*
 	dc.b	"vumete","r"+$80,"00",-1
 	dc.w	L_NullPar,L_Nul						*
 	dc.b	"voic","e"+$80,"I0",-1
-	dc.w	L_NullPar,L_Nul						*
+	dc.w	L_NullDef,L_Nul						*
 	dc.b	"music of","f"+$80,"I",-1
-	dc.w	L_NullPar,L_Nul						*
+	dc.w	L_NullDef,L_Nul						*
 	dc.b	"music sto","p"+$80,"I",-1
 	dc.w	L_NullPar,L_Nul						*
 	dc.b	"temp","o"+$80,"I0",-1
@@ -81,16 +83,16 @@ C_Tk:	dc.w 	1,0
 
 	dc.w	L_NullPar,L_Nul						*
 	dc.b	"noise t","o"+$80,"I0",-1
-	dc.w	L_NullPar,L_Nul						*
+	dc.w	L_NullDef,L_Nul						*
 	dc.b 	"boo","m"+$80,"I",-1
-	dc.w	L_NullPar,L_Nul						*
+	dc.w	L_NullDef,L_Nul						*
 	dc.b	"shoo","t"+$80,"I",-1
 	dc.w	L_InSamBank,L_Nul
 	dc.b	"sam ban","k"+$80,"I0",-1
 	dc.w	L_InSamLoopOn0,L_Nul
 	dc.b	"!sam loop o","n"+$80,"I",-2
 	dc.w	L_InSamLoopOn1,L_Nul
-	dc.b	$80,"I",-1
+	dc.b	$80,"I0",-1
 	dc.w	L_InSamLoopOff0,L_Nul
 	dc.b	"sam loop of","f"+$80,"I",-2
 	dc.w	L_InSamLoopOff1,L_Nul
@@ -105,11 +107,11 @@ C_Tk:	dc.w 	1,0
 	dc.b	$80,"I0,0,0",-1 
 	dc.w 	L_InSamRaw,L_Nul
 	dc.b 	"sam ra","w"+$80,"I0,0,0,0",-1	
-	dc.w	L_NullPar,L_Nul						*
+	dc.w	L_NullDef,L_Nul						*
 	dc.b 	"!bel","l"+$80,"I",-2
 	dc.w 	L_NullPar,L_Nul						*
 	dc.b	$80,"I0",-1
-	dc.w	L_NullPar,L_Nul						*
+	dc.w	L_NullDef,L_Nul						*
 	dc.b	"!play of","f"+$80,"I",-2
 	dc.w	L_NullPar,L_Nul						*
 	dc.b	$80,"I0",-1
@@ -152,13 +154,13 @@ C_Tk:	dc.w 	1,0
 	dc.w	L_InSamStop1,L_Nul
 	dc.b	$80,"I0",-1
 
-	dc.w	L_NullPar,L_Nul						*
+	dc.w	L_NullDef,L_Nul						*
 	dc.b	"track sto","p"+$80,"I",-1
-	dc.w	L_NullPar,L_Nul						*
+	dc.w	L_NullDef,L_Nul						*
 	dc.b	"track loop o","n"+$80,"I",-1
-	dc.w	L_NullPar,L_Nul						*
-	dc.b	"track loop o","f"+$80,"I",-1
-	dc.w	L_NullPar,L_Nul						*
+	dc.w	L_NullDef,L_Nul						*
+	dc.b	"track loop of","f"+$80,"I",-1
+	dc.w	L_NullDef,L_Nul						*
 	dc.b	"!track pla","y"+$80,"I",-2
 	dc.w	L_NullPar,L_Nul						*
 	dc.b	$80,"I0",-2
@@ -171,9 +173,9 @@ C_Tk:	dc.w 	1,0
 	dc.b	"mouth widt","h"+$80,"0",-1
 	dc.w	L_Nul,L_NullPar						*
 	dc.b	"mouth heigh","t"+$80,"0",-1
-	dc.w	L_NullPar,L_Nul						*
+	dc.w	L_NullDef,L_Nul						*
 	dc.b	"mouth rea","d"+$80,"I",-1
-	dc.w	L_NullPar,L_Nul						*
+	dc.w	L_NullDef,L_Nul						*
 	dc.b	"talk sto","p"+$80,"I",-1
 	dc.w	L_NullPar,L_Nul						*
 	dc.b	"talk mis","c"+$80,"I0,0",-1
@@ -183,18 +185,20 @@ C_Tk:	dc.w 	1,0
 
 	dc.w	L_NullPar,L_Nul						*
 	dc.b	"med loa","d"+$80,"I2,0",-1
-	dc.w	L_NullPar,L_Nul						*
+	dc.w	L_NullDef,L_Nul						*
 	dc.b	"!med pla","y"+$80,"I",-2
 	dc.w	L_NullPar,L_Nul						*
 	dc.b	$80,"I0",-2
 	dc.w	L_NullPar,L_Nul						*
 	dc.b	$80,"I0,0",-1
-	dc.w	L_NullPar,L_Nul						*
+	dc.w	L_NullDef,L_Nul						*
 	dc.b	"med sto","p"+$80,"I",-1
-	dc.w	L_NullPar,L_Nul						*
+	dc.w	L_NullDef,L_Nul						*
 	dc.b	"med con","t"+$80,"I",-1
-	dc.w	L_NullPar,L_Nul						*
+	dc.w	L_NullDef,L_Nul						*
 	dc.b	"med midi o","n"+$80,"I",-1
+
+;	TOKEN_END
 
 	dc.w 	0
 	dc.l	0
@@ -1012,15 +1016,24 @@ Sami_start
 	Rbmi	L_IDError
 	rts
 
-; Amal in +w.s (AMOS.Library) has an internal reference for Vu= to this extension via ExtAdr+ExtNb which may be a problem, please report
+; Amal in +w.s (AMOS.Library) has an internal reference for Vu= to this extension via ExtAdr+ExtNb
 
 ; - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 ;	Mock call
 ; - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 	Lib_Par	NullPar
-	moveq	#0,d0
-	rts	
+	;moveq	#0,d1
+	;moveq	#0,d2
+	moveq	#0,d3
+	;rts
+	Ret_Int
 	
+	Lib_Def NullDef
+	;moveq	#0,d1
+	;moveq	#0,d2
+	moveq	#0,d3
+	;rts
+	Ret_Int	
 
 ; - - - - - - - - - - - - -
 	Lib_Empty

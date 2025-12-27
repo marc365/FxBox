@@ -1,5 +1,5 @@
 ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-; +Music.s, list of the library functions on the 20-12-2025 19:51:53
+; +Music.s, list of the library functions on the 27-12-2025 00:15:19
 ;
 ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 L_Ext_Cold:		set	0
@@ -44,3 +44,4 @@ L_InSamStop1:		set	39
 L_IDError:		set	40
 L_InSsave:		set	41
 L_NullPar:		set	42
+L_NullDef:		set	43
