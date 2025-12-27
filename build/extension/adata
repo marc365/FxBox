@@ -1,0 +1,5 @@
+echo "Assembling AMOSPro FxBox Configuration"
+
+c/Genim2 +fxbox_config.s -ofxbox_config.o
+c/Get_Chunk fxbox_config.o /AMOSPro_FxBox_Config
+Delete fxbox_config.o
