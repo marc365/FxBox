@@ -1,5 +1,9 @@
-echo "Assembling AMOSPro FxBox Configuration"
-
+echo "Assembling FxBox Configuration"
 c/Genim2 +fxbox_config.s -ofxbox_config.o
 c/Get_Chunk fxbox_config.o /AMOSPro_FxBox_Config
 Delete fxbox_config.o
+
+echo "Assembling the Compiler Configuration"
+c/Genim2 +compiler_config.s -ocompiler_config.o
+c/Get_Chunk compiler_config.o /AMOSPro_Compiler_Config
+Delete compiler_config.o
