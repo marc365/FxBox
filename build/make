@@ -1,4 +1,5 @@
 apcmp FROM /fxbox_1_18g.AMOS TO /fxbox TYPE=0 NOERR NODEF WB INCLIB
 
-copy fxbox ram:
-copy fxbox.info ram:
+copy /fxbox ram:
+copy /fxbox.info ram:
+
