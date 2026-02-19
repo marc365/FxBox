@@ -1,5 +1,5 @@
 # FxBox
-FxBox 1.18 realtime multi loop processor editor for the Amiga range of computers m68k-amigaos >= 1.3
+FxBox 1.19 realtime multi loop processor editor for the Amiga range of computers m68k-amigaos >= 1.3
 
 ![alt fxbox](https://github.com/marc365/FxBox/raw/master/fxbox.png)
 
@@ -15,8 +15,10 @@ FxBox 1.18 realtime multi loop processor editor for the Amiga range of computers
   
   Realtime effects preview and oscilloscope is available on accelerated machines.
 
-  Requires at least 1M ram.
+  Requires at least 1M ram, and supports up to 2G.
 
   Written in AMOS BASIC and compiled with AMOS Professional 365.
 
 ![alt options](https://github.com/marc365/FxBox/raw/master/fxbox_options.png)
+
+![alt oscilloscope](https://github.com/marc365/FxBox/raw/master/fxbox_oscilloscope.png)
