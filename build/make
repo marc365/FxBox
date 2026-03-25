@@ -1,7 +1,7 @@
-failat 21
-memtrailer 64
+;failat 21
+;memtrailer 64
 
-apcmp FROM /fxbox_1_19g.AMOS TO /fxbox TYPE=0 NOERR NODEF WB INCLIB
+apcmp FROM /fxbox_1_20g.AMOS TO /fxbox TYPE=0 NOERR NODEF WB INCLIB
 
 copy /fxbox ram:
 copy /fxbox.info ram:
