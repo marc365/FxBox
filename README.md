@@ -1,5 +1,5 @@
-# FxBox
-FxBox 1.19 realtime multi loop processor editor for the Amiga range of computers m68k-amigaos >= 1.3
+# FxBox 1.20
+realtime multi loop processor editor for the Amiga range of computers m68k-amigaos >= 1.3
 
 ![alt fxbox](https://github.com/marc365/FxBox/raw/master/fxbox.png)
 
@@ -8,6 +8,8 @@ FxBox 1.19 realtime multi loop processor editor for the Amiga range of computers
   Loads and saves Iff 8bit files, Iff CATs and AMOS sample banks.
 
   Can do mono, stereo, quad and 4 channel multi track.
+
+  Render Octamed modules as waveforms.
 
   Record to disk and pipe over the network to a VST Host, Win32 plugin included.
 
