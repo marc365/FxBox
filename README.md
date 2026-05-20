@@ -1,4 +1,4 @@
-# FxBox 1.20
+# FxBox 1.21
 realtime multi loop processor editor for the Amiga range of computers m68k-amigaos >= 1.3
 
 ![alt fxbox](https://github.com/marc365/FxBox/raw/master/fxbox.png)
