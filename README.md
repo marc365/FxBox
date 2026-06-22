@@ -1,4 +1,4 @@
-# FxBox 1.21
+# FxBox 1.22
 realtime multi loop processor editor for the Amiga range of computers m68k-amigaos >= 1.3
 
 ![alt fxbox](https://github.com/marc365/FxBox/raw/master/fxbox.png)
@@ -24,3 +24,12 @@ realtime multi loop processor editor for the Amiga range of computers m68k-amiga
 ![alt options](https://github.com/marc365/FxBox/raw/master/fxbox_options.png)
 
 ![alt oscilloscope](https://github.com/marc365/FxBox/raw/master/fxbox_oscilloscope.png)
+
+# Source Code
+there is an archive of .AMOS files and an .Asc file that is updated to compare the difference between each version
+
+the build folder has a 'make' file that compiles FxBox using a custom APCmp command that looks for the AMOS.Library in the local folder, it builds the fxbox custom config and headers and the updated music extension. note: FxBox is fully compatible interpreted with a default installation of AMOS Professional nothing custom needs installing, the customizations are during the build process only.
+
+    cd build
+  
+    execute make
