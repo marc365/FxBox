@@ -1,0 +1,4 @@
+echo "Assembling machinecode.s to machinecode.bin"
+c/GenIm2 machinecode.s -omachinecode.o
+c/Get_Chunk machinecode.o machinecode.bin
+Delete machinecode.o
