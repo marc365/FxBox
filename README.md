@@ -1,9 +1,9 @@
-# FxBox 1.22
+# FxBox 1.23
 realtime multi loop processor editor for the Amiga range of computers m68k-amigaos >= 1.3
 
 ![alt fxbox](https://github.com/marc365/FxBox/raw/master/fxbox.png)
 
-  Imports 16bit, 24bit and 32bit floating point Aif and Wav files, and Octamed modules.
+  Imports 16bit, 24bit and 32bit floating point Aif and Wav files, mp2, mp3 files, and Octamed modules.
 
   Loads and saves Iff 8bit files, Iff CATs and AMOS sample banks.
 
