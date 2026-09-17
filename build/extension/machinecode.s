@@ -1,16 +1,20 @@
    org   0
 start:
-   asl.b    #1,d0
+   rol.b    d1,d0
    rts
-   asr.b    #1,d0
+   ror.b    d1,d0
    rts
-   lsr.b    #1,d0
+   asl.b    d1,d0
    rts
-   and.l    d1,d0
+   asr.b    d1,d0
    rts
    asl.l    d1,d0
    rts
    asr.l    d1,d0
+   rts
+   lsr.b    d1,d0
+   rts
+   and.l    d1,d0
    rts
 
 
