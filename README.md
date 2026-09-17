@@ -1,13 +1,13 @@
-# FxBox 1.23
+# FxBox 1.24
 realtime multi loop processor editor for the Amiga range of computers m68k-amigaos >= 1.3
 
-![alt fxbox](https://github.com/marc365/FxBox/raw/master/fxbox.png)
+![fxbox](https://github.com/marc365/FxBox/raw/master/fxbox.png)
 
   Imports 16bit, 24bit and 32bit floating point Aif and Wav files, mp2, mp3 files, and Octamed modules.
 
   Loads and saves Iff 8bit files, Iff CATs and AMOS sample banks.
 
-  Can do mono, stereo, quad and 4 channel multi track.
+  Can do mono, stereo, quad and 4, 8, 16 channel multi track.
 
   Render Octamed modules as waveforms.
 
@@ -19,11 +19,13 @@ realtime multi loop processor editor for the Amiga range of computers m68k-amiga
 
   Requires at least 1M ram, and supports up to 2G.
 
-  Written in AMOS BASIC and compiled with AMOS Professional 365.
+  Written in AMOS BASIC and compiled with ![AMOS Professional 365](https://github.com/marc365/AMOS-Professional-365).
 
-![alt options](https://github.com/marc365/FxBox/raw/master/fxbox_options.png)
+![options](https://github.com/marc365/FxBox/raw/master/fxbox_options.png)
 
-![alt oscilloscope](https://github.com/marc365/FxBox/raw/master/fxbox_oscilloscope.png)
+![8 channel](https://github.com/marc365/FxBox/raw/master/fxbox_8ch.png)
+
+![oscilloscope](https://github.com/marc365/FxBox/raw/master/fxbox_oscilloscope.png)
 
 # Source Code
 there is an archive of .AMOS files and an .Asc file that is updated to compare the difference between each version
