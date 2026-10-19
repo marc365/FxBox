@@ -38,7 +38,7 @@ namespace FxBox.VST
 
             PortInfo = new Port[1]
             {
-	            new Port() { Direction = PortDirection.Output, Name = "Paula Output", NumberOfChannels = 16 }
+	            new Port() { Direction = PortDirection.Output, Name = "FxBox Output", NumberOfChannels = 16 }
             };
         }
 
