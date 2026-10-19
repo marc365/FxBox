@@ -1,21 +1,22 @@
-# FxBox 1.24
+# FxBox 1.25
 realtime multi loop processor editor for the Amiga range of computers m68k-amigaos >= 1.3
 
 ![fxbox](https://github.com/marc365/FxBox/raw/master/fxbox.png)
 
-  Imports 16bit, 24bit and 32bit floating point Aif and Wav files, mp2, mp3 files, and Octamed modules.
+  8bit, 16bit and 24bit processing modes, imports Aif and Wav files,
+mp2, mp3 files and Octamed modules.
 
-  Loads and saves Iff 8bit files, Iff CATs and AMOS sample banks.
+  Saves Iff files, Iff CATs and AMOS sample banks.
 
   Can do mono, stereo, quad and 4, 8, 16 channel multi track.
 
-  Render Octamed modules as waveforms.
+  VST plugin integration with studio quality output.
 
-  Record to disk and pipe over the network to a VST Host, Win32 plugin included.
+  Command sequencer capable of rendering Octamed modules as waveforms.
 
   Network BPM sync and Octamed Arexx sync at the same time.
-  
-  Realtime effects preview and oscilloscope is available on accelerated machines.
+
+  Realtime processing works best on accelerated machines.
 
   Requires at least 1M ram, and supports up to 2G.
 
